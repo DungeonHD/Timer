@@ -1,44 +1,43 @@
 # Timer
 
-Das Minecraft Timer Plugin ermöglicht es Spielern, einen Timer zu starten, zu pausieren, fortzusetzen und abzubrechen.
-Der Timer wird in der Actionbar angezeigt und speichert die vergangene Zeit, auch wenn der Server oder der Spieler offline geht.
+The Minecraft Timer Plugin allows players to start, pause, resume, and cancel a timer. The timer is displayed in the Actionbar and saves elapsed time even if the server or player goes offline.
 
 ## Features
 
-- Starte einen Timer mit `/timer start`.
-- Pausiere den Timer mit `/timer pause`.
-- Setze den Timer fort mit `/timer resume`.
-- Bricht den Timer ab und setzt ihn zurück mit `/timer cancel`.
-- Der Timer wird in der Actionbar angezeigt.
-- Konfigurationsdatei (`config.yml`) speichert die vergangene Zeit.
+- Start a timer with `/timer start`.
+- Pause the timer with `/timer pause`.
+- Resume the timer with `/timer resume`.
+- Cancel and reset the timer with `/timer cancel`.
+- Timer displayed in the Actionbar.
+- Configuration file (`config.yml`) saves elapsed time.
 
 ## Installation
 
-1. Lade das Plugin herunter und füge es in dem `plugins` Ordner deines Minecraft Servers hinzu.
-2. Starte den Server neu oder lade das Plugin mit `/reload` neu.
+1. Download the plugin and place it into the `plugins` folder of your Minecraft server.
+2. Restart the server or reload the plugin using `/reload`.
 
-## Verwendung
+## Usage
 
-Verwende die folgenden Befehle, um den Timer zu steuern:
+Use the following commands to control the timer:
 
-- `/timer start`: Startet den Timer.
-- `/timer pause`: Pausiert den laufenden Timer.
-- `/timer resume`: Setzt den pausierten Timer fort.
-- `/timer cancel`: Bricht den Timer ab und setzt ihn zurück.
+- `/timer start`: Starts the timer.
+- `/timer pause`: Pauses the running timer.
+- `/timer resume`: Resumes the paused timer.
+- `/timer cancel`: Cancels and resets the timer.
 
-Der Timer wird automatisch in der Actionbar angezeigt, während er läuft oder pausiert ist.
+The timer will automatically display in the Actionbar while it is running or paused.
 
 ## Contributing
 
-Wir freuen uns über Beiträge zu diesem Plugin! Wenn du etwas verbessern möchtest:
+We welcome contributions to this plugin! If you'd like to improve something:
 
-1. Fork das Repository und erstelle einen Branch (`git checkout -b feature/NeueFunktion`).
-2. Commit deine Änderungen (`git commit -am 'Hinzufügen einer neuen Funktion'`).
-3. Push zu den Branch (`git push origin feature/NeueFunktion`).
-4. Erstelle einen neuen Pull Request.
+1. Fork the repository and create a branch (`git checkout -b feature/NewFeature`).
+2. Commit your changes (`git commit -am 'Add a new feature'`).
+3. Push to the branch (`git push origin feature/NewFeature`).
+4. Create a new Pull Request.
 
-Bitte sicherstellen, dass du deine Änderungen ausgiebig testest, bevor du einen Pull Request erstellst.
+Please ensure you thoroughly test your changes before creating a pull request.
 
-## Lizenz
+## License
 
-Dieses Projekt ist unter der [MIT Lizenz](LICENSE) lizenziert - siehe die [LICENSE](LICENSE) Datei für weitere Details.
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
